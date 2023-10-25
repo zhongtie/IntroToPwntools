@@ -1,3 +1,4 @@
+# pyright: reportUndefinedVariable=false
 from pwn import *
 
 padding = cyclic(cyclic_find("taaa"))
